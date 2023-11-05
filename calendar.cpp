@@ -63,7 +63,8 @@ void Calendar::analyze()
                 else if(toAdd > 0)
                 {
                     cout << month << "/" << day << "/" << year;
-                    cout << " after " << toAdd << " days is on " << determineDate();
+                    cout << " after " << toAdd << " days is on " << determineWeekday();
+                    cout << ", " << determineDate() << endl;
                 }
             }
             else if (cmd == "-w")

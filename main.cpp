@@ -7,7 +7,7 @@ using namespace std;
 void print_help_message()
 {
     //Prints all the options/feature we had
-    cout << "-help:  " << "Help page: You are here" << endl;
+    cout << "--help:  " << "Help page: You are here" << endl;
     cout << "\n-a:\t" << "Adds number of days to input days and get the date" << endl;
     cout << "   \t" << "Syntax: -a <date to start> <number of days to add>" << endl;
     cout << "\n-w:\t" << "Gets a weekday of the input date" << endl;

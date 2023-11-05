@@ -8,14 +8,20 @@ This project aims to give users various answers to common date problems:
 ## Authors
 Bilal Syed, Thy Le, Roberto Garcia
 
-## Build Directions
-Run command 'g++ main.cpp calendar.cpp' excluding the quotes while in the assignment directory.
-This will generate an executable file.
-Next, run './a.out' followed by the arguments you want.
+## Build and Run Directions
+Run  the `calendar_builder.sh` script with the following command:
+```
+./calendar_builder.sh
+```
+
+This will generate an executable file called `calendar`. To run this executable file, run followed by the arguments you want.
+```
+./calendar <operation argument> <argument #1> <argument #2> ...
+```
 If you are unsure which arguments are available or valid enter './a.out --help' to enter the help document.
 
 ## Testing Directions
-In the terminal enter the command: 'docker build --rm ./' excluding quotes.
+In the terminal enter the command: `docker build --rm ./`.
 This will create a docker container that will build and run the tests.
 It will display which tests passed and failed as well as an overall count of passing tests at the end.
 
